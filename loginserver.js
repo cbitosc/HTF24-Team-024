@@ -40,6 +40,10 @@ app.get("/store.html", (req, res) => {
     res.sendFile(path.join(__dirname, 'store.html'));
 });
 
+app.get("/forgotpassword", (req, res) => {
+    res.sendFile(path.join(__dirname, 'forgotpassword.html'))
+})
+
 app.get("/payment.html", (req, res) => {
     res.sendFile(path.join(__dirname, 'payment.html'));
 });
