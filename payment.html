@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlichWare - Payment Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --yellow: #FFFF00;
+            --purple: #ca00ca;
+            --cyan: #00FFFF;
+            --background: #111111;
+            --card-bg: #222222;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background-color: var(--background);
+            color: var(--cyan);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .cyberpunk-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glitch-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                to bottom,
+                transparent 0%,
+                rgba(238, 130, 238, 0.03) 0.5%,
+                transparent 1%
+            );
+            pointer-events: none;
+            z-index: 1;
+            animation: glitch-overlay 10s infinite;
+        }
+
+        .payment-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: var(--card-bg);
+            border: 2px solid var(--cyan);
+            position: relative;
+            z-index: 2;
+        }
+
+        .payment-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .payment-header h1 {
+            color: var(--yellow);
+            font-size: 2rem;
+            margin-bottom: 10px;
+            animation: glitch-header 10s infinite;
+        }
+
+        .payment-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .payment-section {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--purple);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--yellow);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            background-color: var(--background);
+            border: 1px solid var(--cyan);
+            color: var(--cyan);
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--yellow);
+            box-shadow: 0 0 5px var(--yellow);
+        }
+
+        .order-summary {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border: 1px solid var(--purple);
+        }
+
+        .order-summary h2 {
+            color: var(--yellow);
+            margin-bottom: 15px;
+        }
+
+        .order-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--cyan);
+        }
+
+        .total {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid var(--yellow);
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            color: var(--yellow);
+        }
+
+        .pay-button {
+            width: 100%;
+            padding: 15px;
+            background-color: var(--purple);
+            color: white;
+            border: none;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .pay-button:hover {
+            background-color: var(--yellow);
+            color: var(--background);
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .payment-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .payment-container {
+                margin: 20px;
+            }
+        }
+
+        .status-message {
+            display: none;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: var(--purple);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="cyberpunk-container">
+        <div class="glitch-overlay"></div>
+        <div class="payment-container">
+            <div class="payment-header">
+                <h1>Neural Payment Interface</h1>
+                <p>Secure Transaction Protocol v2.0</p>
+            </div>
+            
+            <div class="payment-grid">
+                <div class="payment-section">
+                    <h2>Payment Details</h2>
+                    <form id="payment-form">
+                        <div class="form-group">
+                            <label for="card-name">Cardholder Name</label>
+                            <input type="text" id="card-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="card-number">Card Number</label>
+                            <input type="text" id="card-number" maxlength="19" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="expiry">Expiry Date</label>
+                            <input type="text" id="expiry" placeholder="MM/YY" maxlength="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">Security Code</label>
+                            <input type="text" id="cvv" maxlength="3" required>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="payment-section">
+                    <div class="order-summary">
+                        <h2>Order Summary</h2>
+                        <div class="order-item">
+                            <span>Acer Nitro V5</span>
+                            <span>¥79,999</span>
+                        </div>
+                        <div class="order-item">
+                            <span>Neural Protection</span>
+                            <span>¥2,999</span>
+                        </div>
+                        <div class="order-item">
+                            <span>Quantum Shipping</span>
+                            <span>¥1,999</span>
+                        </div>
+                        <div class="total">
+                            <span>Total Credits</span>
+                            <span>¥84,997</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="pay-button" id="submit-payment">INITIATE TRANSFER</button>
+            <div class="status-message" id="status-message"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('payment-form');
+            const submitButton = document.getElementById('submit-payment');
+            const statusMessage = document.getElementById('status-message');
+            const cardNumberInput = document.getElementById('card-number');
+            const expiryInput = document.getElementById('expiry');
+
+            // Format card number with spaces
+            cardNumberInput.addEventListener('input', (e) => {
+                let value = e.target.value.replace(/\s/g, '');
+                let formatted = value.match(/.{1,4}/g)?.join(' ') || '';
+                e.target.value = formatted;
+            });
+
+            // Format expiry date
+            expiryInput.addEventListener('input', (e) => {
+                let value = e.target.value.replace(/\D/g, '');
+                if (value.length >= 2) {
+                    value = value.slice(0,2) + '/' + value.slice(2);
+                }
+                e.target.value = value;
+            });
+
+            submitButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                submitButton.style.backgroundColor = 'var(--cyan)';
+                submitButton.textContent = 'PROCESSING...';
+                
+                setTimeout(() => {
+                    statusMessage.style.display = 'block';
+                    statusMessage.style.backgroundColor = 'var(--purple)';
+                    statusMessage.textContent = 'Payment processed successfully. Redirecting to confirmation...';
+                    
+                    submitButton.style.backgroundColor = 'var(--yellow)';
+                    submitButton.textContent = 'TRANSFER COMPLETE';
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
