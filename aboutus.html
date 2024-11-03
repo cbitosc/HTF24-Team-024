@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Glitchware</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+* {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d; /* Slightly less harsh black */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Header Menu */
+.menu ul {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.menu li a {
+  color: #00ffcc; /* Neon turquoise */
+  text-decoration: none;
+  padding: 14px 16px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #ff0000; /* Neon pink */
+  text-shadow: 0 0 5px #ff0000;
+}
+
+/* Background Section */
+.about-background {
+  background-image: url('home.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Header */
+.mainheader {
+  font-family: 'Girassol', sans-serif;
+  font-size: 3em;
+  animation: slide-in 1s ease forwards;
+  color: #00ffcc;
+  text-shadow: 0 0 15px #00ffcc, 0 0 30px #00cc99; /* Double glow */
+}
+
+/* Section Titles */
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  color: #ff0000;
+  margin: 20px 0;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff1a1aa3; /* Glow effect */
+}
+
+/* Image and Icon Styling */
+.section-image,
+.value-icon {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Values List */
+.values-list {
+  list-style-type: none;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.values-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.values-list h3 {
+  font-weight: bold;
+  color: #ff007f;
+  margin-left: 10px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.6;
+  color: #00FFCC; /* Light gray for readability */
+}
+
+/* Fade-in Effect for Scrolling Sections */
+.fade-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Individual Section Animations */
+.Mission,
+.Story,
+.Values,
+.JOIN {
+  animation: slide-in 0.7s ease forwards;
+}
+
+/* Slide-in Keyframes */
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #1a1a1a; /* Darker gray */
+  color: white;
+  border-top: 1px solid #00ffcc; /* Neon turquoise border */
+}
+
+/* Optional: Add subtle hover animations for the footer links */
+footer a {
+  color: #00ffcc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ff007f;
+  text-shadow: 0 0 5px #ff007f;
+}
+
+
+
+       body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #00ffcc; /* Neon turquoise */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0d0d0d; /* Slightly softer black */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+ h1{
+    color: #ff0000; /* Neon pink */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Glow effect */
+ }
+h2 {
+    color: #E0FF4F; /* Neon pink */
+    text-shadow: 0 0 10px #E0FF4F, 0 0 20px #AFFF00; /* Glow effect */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.feature {
+    background-color: #1a1a1a; /* Dark gray */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #333;
+}
+
+.feature h3 {
+  color: #E0FF4F; /* Light gray for readability */
+  text-shadow: 0 0 10px #E0FF4F ;
+}
+
+.cta {
+    background-color: #ffc400;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: rgb(255, 179, 0);
+}
+
+#factContainer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.stat {
+    text-align: center;
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.stat-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+.timeline {
+    margin: 40px 0;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-year {
+    font-weight: bold;
+    color: #ff007f;
+}
+
+.timeline>span
+{
+    color: turquoise;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #00ffcc;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #00ffcc;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff007f;
+    text-shadow: 0 0 5px #ff007f;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.typing {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #ff007f;
+    width: 0;
+    animation: typing 3s steps(40, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #ff007f }
+}
+</style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Glitchware Logo" class="logo"style="width: 100px; height:auto">
+        <h1>About Glichware</h1>
+    </header>
+
+    <main>
+        <section class="fade-in">
+            <h2>Our Mission</h2>
+            <p class="typing">To revolutionize the gaming equipment marketplace by offering premium,</p>
+            <p>high-performance products paired with unmatched technical expertise and customer support.</p>
+        </section>
+
+        <section class="fade-in">
+            <h2>What is Glitchware</h2>
+            <p>Welcome to the future of gaming tech. Since 2020, Glitchware has been at the forefront of providing cutting-edge gaming hardware and accessories to enthusiasts who demand nothing but the best.</p>
+        </section>
+
+        <section>
+            <h2>Key Features</h2>
+            <div class="feature fade-in" style="background-image: url(about1.jpg); background-position: center 50%;">
+                <h3>CUSTOM RIGS</h3>
+                <p>DREAM IT. BUILD IT. DOMINATE.</p>
+            </div>
+            <div class="feature fade-in" style="background-image: url(about2.jpg); background-position: center 50%;">
+                <h3>24/7 TECH SQUAD</h3>
+                <p>NEVER GAME ALONE.</p>
+            </div>
+            <div class="feature fade-in" style="background-image: url(about3.jpg); background-position: center 50%; background-repeat: no-repeat; background-size: cover;">
+                <h3>TEST DRIVE</h3>
+                <p>PLAY BEFORE YOU PAY</p>
+            </div>
+            <div class="feature fade-in" style="background-image: url(about4.jpg); background-position: center bottom; background-repeat: no-repeat; background-size: cover;">
+                <h3>GLITCH_SHIELD</h3>
+                <p>YOUR GEAR, OUR GUARD</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Glitchware by the Records</h2>
+            <div class="stats">
+                <div class="stat fade-in">
+                    <div class="stat-number">100000+</div>
+                    <div>Satisfied Customers</div>
+                </div>
+                <div class="stat fade-in">
+                    <div class="stat-number">50000+</div>
+                    <div>Custom Gaming PCs Built</div>
+                </div>
+                <div class="stat fade-in">
+                    <div class="stat-number">4.8/5</div>
+                    <div>Customer Satisfaction Rating</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fade-in">
+            <h2>Our History</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-year">2020</span>: [INIT] Garage startup in Bangalore.
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">2021</span>: 2021 [EXPAND] First store & 10K+ users
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">2022</span>: 2022 [LEVEL UP] 5-city expansion
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">2023</span>: 2023 [POWER UP] Brand launches & partnerships.
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">2024</span>: 2024 [MAXED] 10 stores, 50K+ users, 100+ experts.
+                </div>
+            </div>
+        </section>
+
+        <section class="fade-in">
+            <h2>Glitchware's Impact</h2>
+            <p>From a garage startup to a gaming empire, Glitchware has equipped 50K+ players, built 10K+ custom rigs, deployed 100+ tech specialists, and continues to redefine the gaming experience.</p>
+            <br>
+        </section>
+
+        <a href="/store.html"><center><button class="cta" id="joinButton">Join Glitchware</button></center></a>
+
+        <div id="factContainer" class="fade-in">
+            <h3>Did you know?</h3>
+            <p id="fact"></p>
+            <button class="cta" id="newFactButton">New Fact</button>
+        </div>
+    </main>
+
+    <footer class="fade-in">
+        <p>&copy; 2023 Glitchware. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/pinterest" >Facebook</a>
+            <a href="https://twitter.com/pinterest">Twitter</a>
+            <a href="https://www.instagram.com/pinterest">Instagram</a>
+            <a href="https://www.youtube.com/user/pinterest">YouTube</a>
+        </div>
+    </footer>
+
+    <script>
+        const facts = [
+           "Glitchware was founded in March 2020.",
+            "As of 2023, Glitchware has over 400 million active users worldwide.",
+            "The name 'Glitchware' reflects a passion for gaming technology.",
+        ];
+
+        function displayRandomFact() {
+            const factElement = document.getElementById('fact');
+            factElement.style.opacity = 0;
+            setTimeout(() => {
+                const randomstore = Math.floor(Math.random() * facts.length);
+                factElement.textContent = facts[randomstore];
+                factElement.style.opacity = 1;
+            }, 300);
+        }
+
+        document.getElementById('newFactButton').addEventListener('click', displayRandomFact);
+
+        // Display initial fact
+        displayRandomFact();
+
+        // Intersection Observer for scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.1 // Trigger when 10% of the element is visible
+        });
+
+        // Observe all elements with the 'fade-in' class
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>

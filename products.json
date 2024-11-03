@@ -1,0 +1,2552 @@
+[
+    {
+        "id": "001",
+        "name": "NVIDIA GeForce RTX 4080 Graphics Card",
+        "description": "High-end graphics card with 16GB GDDR6X memory, ray tracing capabilities, and DLSS 3.0 technology for exceptional gaming performance.",
+        "category": "PC Parts",
+        "price": 124999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rtx4080_front.jpg",
+            "https://example.com/images/rtx4080_angle.jpg"
+        ],
+        "tags": [
+            "001",
+            "NVIDIA GeForce RTX 4080",
+            "NVIDIA",
+            "RTX 4080",
+            "Graphics Card",
+            "Gaming GPU",
+            "16GB VRAM",
+            "Ray Tracing",
+            "DLSS 3.0",
+            "High-End GPU",
+            "PC Gaming",
+            "4K Gaming",
+            "High-end Graphics Card",
+            "16GB GDDR6X",
+            "Ray Tracing Capabilities",
+            "DLSS 3.0 Technology",
+            "Exceptional Gaming Performance",
+            "GPU for PC",
+            "NVIDIA RTX 4080"
+        ]
+    },
+    {
+        "id": "002",
+        "name": "Asus ROG Zephyrus G14 (2024)",
+        "description": "14-inch gaming laptop with AMD Ryzen 9 8945HS, 32GB RAM, 1TB NVMe SSD, and RTX 4070 graphics.",
+        "category": "Laptops",
+        "price": 182999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/zephyrus_g14_front.jpg",
+            "https://example.com/images/zephyrus_g14_open.jpg"
+        ],
+        "tags": [
+            "002",
+            "Asus ROG Zephyrus G14",
+            "Asus",
+            "Gaming Laptop",
+            "Ryzen 9",
+            "RTX 4070",
+            "14-inch",
+            "Portable Gaming",
+            "High Performance",
+            "2024 Model",
+            "Gaming Notebook",
+            "High-End Laptop",
+            "Gaming Performance",
+            "AMD Ryzen",
+            "32GB RAM",
+            "1TB NVMe SSD",
+            "Compact Gaming Laptop",
+            "ROG Series",
+            "Asus Gaming",
+            "High Refresh Rate"
+        ]
+    },
+    {
+        "id": "003",
+        "name": "Samsung 49\" Odyssey OLED G9",
+        "description": "49-inch curved OLED gaming monitor with 240Hz refresh rate, 0.03ms response time, and 5120x1440 resolution.",
+        "category": "PC Accessories",
+        "price": 249999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/odyssey_g9_front.jpg",
+            "https://example.com/images/odyssey_g9_side.jpg"
+        ],
+        "tags": [
+            "003",
+            "Samsung Odyssey OLED G9",
+            "Samsung",
+            "49-inch Monitor",
+            "Curved Monitor",
+            "OLED Display",
+            "Gaming Monitor",
+            "240Hz Refresh Rate",
+            "0.03ms Response Time",
+            "5120x1440 Resolution",
+            "High Refresh Rate Monitor",
+            "Ultra-Wide Monitor",
+            "HDR Gaming Monitor",
+            "Gaming Setup",
+            "Professional Monitor",
+            "Immersive Gaming",
+            "High Performance Display",
+            "PC Gaming Monitor",
+            "Ultra-Wide Gaming",
+            "Samsung Gaming Monitor"
+        ]
+    },
+    {
+        "id": "004",
+        "name": "Apple Vision Pro",
+        "description": "Advanced mixed reality headset with dual micro-OLED technology, M2 chip, and revolutionary visionOS.",
+        "category": "Electrical Gadgets",
+        "price": 299999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/vision_pro_front.jpg",
+            "https://example.com/images/vision_pro_side.jpg"
+        ],
+        "tags": [
+            "004",
+            "Apple Vision Pro",
+            "Apple",
+            "Mixed Reality Headset",
+            "VR Headset",
+            "AR Technology",
+            "M2 Chip",
+            "visionOS",
+            "Premium Headset",
+            "Advanced Technology",
+            "Immersive Experience",
+            "Dual Micro-OLED",
+            "High Resolution",
+            "Virtual Reality",
+            "Augmented Reality ",
+            "Gaming Headset",
+            "Professional Headset",
+            "Apple VR",
+            "Apple AR"
+        ]
+    },
+    {
+        "id": "005",
+        "name": "Corsair Hydro Series H115i RGB Platinum",
+        "description": "High-performance liquid CPU cooler with 280mm radiator, 140mm fans, and 16 individually addressable RGB LEDs.",
+        "category": "PC Parts",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/h115i_front.jpg",
+            "https://example.com/images/h115i_side.jpg"
+        ],
+        "tags": [
+            "005",
+            "Corsair Hydro Series H115i RGB Platinum",
+            "Corsair",
+            "Liquid CPU Cooler",
+            "280mm Radiator",
+            "140mm Fans",
+            "RGB LEDs",
+            "High-Performance Cooling",
+            "CPU Cooling",
+            "Gaming PC",
+            "High-End Cooling",
+            "RGB Lighting",
+            "Customizable Lighting",
+            "High-Quality Cooling",
+            "PC Cooling Solution",
+            "Corsair Cooling",
+            "High-Performance PC"
+        ]
+    },
+    {
+        "id": "006",
+        "name": "Logitech G Pro X Superlight",
+        "description": "Professional-grade gaming mouse with 15,000 CPI optical sensor, 1ms report rate, and 63g weight.",
+        "category": "PC Accessories",
+        "price": 9999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/pro_x_front.jpg",
+            "https://example.com/images/pro_x_side.jpg"
+        ],
+        "tags": [
+            "006",
+            "Logitech G Pro X Superlight",
+            "Logitech",
+            "Gaming Mouse",
+            "Professional Gaming",
+            "15,000 CPI",
+            "Optical Sensor",
+            "1ms Report Rate",
+            "63g Weight",
+            "Lightweight Mouse",
+            "High-Precision Gaming",
+            "Esports Gaming",
+            "Competitive Gaming",
+            "Gaming Performance",
+            "Logitech Gaming",
+            "Pro Gaming Mouse"
+        ]
+    },
+    {
+        "id": "007",
+        "name": "Razer BlackWidow Lite",
+        "description": "Mechanical gaming keyboard with Razer Orange switches, customizable backlighting, and macro capabilities.",
+        "category": "PC Accessories",
+        "price": 12999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/blackwidow_lite_front.jpg",
+            "https://example.com/images/blackwidow_lite_side.jpg"
+        ],
+        "tags": [
+            "007",
+            "Razer BlackWidow Lite",
+            "Razer",
+            "Mechanical Keyboard",
+            "Gaming Keyboard",
+            "Razer Orange Switches",
+            "Customizable Backlighting",
+            "Macro Capabilities",
+            "High-Performance Gaming",
+            "Gaming Performance",
+            "Razer Gaming",
+            "Pro Gaming Keyboard",
+            "Customizable Keyboard",
+            "Gaming Setup",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "008",
+        "name": "SteelSeries Arctis 7P+ Wireless",
+        "description": "Wireless gaming headset with 15-hour battery life, 40mm drivers, and retractable microphone.",
+        "category": "PC Accessories",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/arctis_7p+_front.jpg",
+            "https://example.com/images/arctis_7p+_side.jpg"
+        ],
+        "tags": [
+            "008",
+            "SteelSeries Arctis 7P+ Wireless",
+            "SteelSeries",
+            "Wireless Gaming Headset",
+            "15-Hour Battery Life",
+            "40mm Drivers",
+            "Retractable Microphone",
+            "Gaming Headset",
+            "Wireless Audio",
+            "Long-Lasting Battery",
+            "High-Quality Audio",
+            "Gaming Performance",
+            "SteelSeries Gaming",
+            "Pro Gaming Headset",
+            "Wireless Gaming",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "009",
+        "name": "HyperX Fury DDR4 64GB (4x16GB)",
+        "description": "High-performance DDR4 RAM with 3200MHz speed, CL16 latency, and stylish heat spreader design.",
+        "category": "PC Parts",
+        "price": 29999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/fury_ddr4_front.jpg",
+            "https ://example.com/images/fury_ddr4_side.jpg"
+        ],
+        "tags": [
+            "009",
+            "HyperX Fury DDR4 64GB",
+            "HyperX",
+            "DDR4 RAM",
+            "High-Performance RAM",
+            "3200MHz Speed",
+            "CL16 Latency",
+            "Stylish Heat Spreader",
+            "Gaming PC",
+            "High-End RAM",
+            "64GB Capacity",
+            "4x16GB Kit",
+            "High-Quality RAM",
+            "PC Upgrades",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "010",
+        "name": "WD Black SN750 NVMe SSD 2TB",
+        "description": "High-performance NVMe SSD with 2TB capacity, 3500MB/s read speed, and 3000MB/s write speed.",
+        "category": "PC Parts",
+        "price": 49999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/sn750_front.jpg",
+            "https://example.com/images/sn750_side.jpg"
+        ],
+        "tags": [
+            "010",
+            "WD Black SN750 NVMe SSD 2TB",
+            "WD Black",
+            "NVMe SSD",
+            "High-Performance Storage",
+            "2TB Capacity",
+            "3500MB/s Read Speed",
+            "3000MB/s Write Speed",
+            "Gaming PC",
+            "High-End Storage",
+            "Fast Storage",
+            "High-Quality SSD",
+            "PC Upgrades",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "011",
+        "name": "MacBook Pro 16 M3 Max",
+        "description": "16-inch laptop with M3 Max chip, 32-core GPU, 64GB unified memory, and 2TB SSD.",
+        "category": "Laptops",
+        "price": 349999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/mbp_m3_front.jpg",
+            "https://example.com/images/mbp_m3_open.jpg"
+        ],
+        "tags": [
+            "011",
+            "MacBook Pro 16 M3 Max",
+            "Apple",
+            "16-inch Laptop",
+            "M3 Max Chip",
+            "32-Core GPU",
+            "64GB Unified Memory",
+            "2TB SSD",
+            "High-Performance Laptop",
+            "Content Creation",
+            "Professional Laptop",
+            "MacOS",
+            "Apple Laptop",
+            "High-End Laptop",
+            "Portable Laptop",
+            "Premium Laptop",
+            "Creative Workstation",
+            "Gaming Laptop",
+            "MacBook Pro"
+        ]
+    },
+    {
+        "id": "012",
+        "name": "ASUS ROG Swift PG32UCDM",
+        "description": "32-inch 4K OLED gaming monitor with 240Hz refresh rate and DisplayHDR True Black 400.",
+        "category": "PC Accessories",
+        "price": 159999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/pg32ucdm_front.jpg",
+            "https://example.com/images/pg32ucdm_ports.jpg"
+        ],
+        "tags": [
+            "012",
+            "ASUS ROG Swift PG32UCDM",
+            "ASUS",
+            "32-inch Monitor",
+            "4K OLED",
+            "Gaming Monitor",
+            "240Hz Refresh Rate",
+            "DisplayHDR True Black 400",
+            "High Refresh Rate Monitor",
+            "HDR Gaming Monitor",
+            "Professional Monitor",
+            "Immersive Gaming",
+            "PC Gaming Monitor",
+            "High-Quality Display",
+            "Gaming Setup",
+            "Ultra-Wide Monitor"
+        ]
+    },
+    {
+        "id": "013",
+        "name": "Cooler Master COSMOS C700M",
+        "description": "Premium full-tower case with curved tempered glass, rotatable motherboard mount, and addressable RGB.",
+        "category": "PC Parts",
+        "price": 54999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/cosmos_front.jpg",
+            "https://example.com/images/cosmos_interior.jpg"
+        ],
+        "tags": [
+            "013",
+            "Cooler Master COSMOS C700M",
+            "Cooler Master",
+            "Full-Tower Case",
+            "Curved Tempered Glass",
+            "Rotatable Motherboard Mount",
+            "Addressable RGB",
+            "Premium PC Case",
+            "High Airflow",
+            "Custom Build",
+            "Gaming PC Case",
+            "High-Quality Materials",
+            "RGB Lighting",
+            "Modular Design",
+            "PC Cooling"
+        ]
+    },
+    {
+        "id": "014",
+        "name": "DEEPCOOL AssAssist Laptop Cooling Pad",
+        "description": "Gaming laptop cooler with 6 fans, RGB lighting, and support for up to 17-inch laptops.",
+        "category": "Laptop Accessories",
+        "price": 4999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/cooling_pad_top.jpg",
+            "https://example.com/images/cooling_pad_side.jpg"
+        ],
+        "tags": [
+            "014",
+            "DEEPCOOL AssAssist Laptop Cooling Pad",
+            "DEEPCOOL",
+            "Laptop Cooler",
+            "Gaming Laptop Cooler",
+            "6 Fans",
+            "RGB Lighting",
+            "17-inch Support",
+            "Portable Cooling",
+            "High Performance",
+            "Cooling Solution",
+            "Gaming Accessory",
+            "Temperature Control",
+            "Laptop Accessories",
+            "Cooling Pad"
+        ]
+    },
+    {
+        "id": "015",
+        "name": "TP-Link Deco XE200",
+        "description": "Tri-band WiFi 6E mesh system with AI-driven network optimization and 10Gbps ports.",
+        "category": "Networking Gadgets",
+        "price": 44999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/deco_xe200_unit.jpg",
+            "https://example.com/images /deco_xe200_app.jpg"
+        ],
+        "tags": [
+            "015",
+            "TP-Link Deco XE200",
+            "TP-Link",
+            "Tri-Band WiFi 6E",
+            "Mesh System",
+            "AI-Driven Network Optimization",
+            "10Gbps Ports",
+            "High-Speed Networking",
+            "Home Networking",
+            "Gaming Networking",
+            "Wireless Networking",
+            "Network Optimization",
+            "Smart Home",
+            "Gaming Router",
+            "High-Performance Networking"
+        ]
+    },
+    {
+        "id": "016",
+        "name": "Corsair K95 RGB Platinum XT",
+        "description": "Mechanical gaming keyboard with Cherry MX Brown switches, 6 programmable macro keys, and 32GB of onboard storage.",
+        "category": "PC Accessories",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/k95_xt_front.jpg",
+            "https://example.com/images/k95_xt_macro_keys.jpg"
+        ],
+        "tags": [
+            "016",
+            "Corsair K95 RGB Platinum XT",
+            "Corsair",
+            "Mechanical Keyboard",
+            "Gaming Keyboard",
+            "Cherry MX Brown Switches",
+            "6 Programmable Macro Keys",
+            "32GB Onboard Storage",
+            "High-Performance Gaming",
+            "Customizable Keyboard",
+            "RGB Lighting",
+            "Gaming Performance",
+            "Professional Gaming",
+            "High-Quality Keyboard",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "017",
+        "name": "Razer Basilisk V3 Pro",
+        "description": "Wireless gaming mouse with 20,000 CPI optical sensor, 70-hour battery life, and customizable RGB.",
+        "category": "PC Accessories",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/basilisk_v3_pro_front.jpg",
+            "https://example.com/images/basilisk_v3_pro_side.jpg"
+        ],
+        "tags": [
+            "017",
+            "Razer Basilisk V3 Pro",
+            "Razer",
+            "Wireless Gaming Mouse",
+            "20,000 CPI Optical Sensor",
+            "70-Hour Battery Life",
+            "Customizable RGB",
+            "Gaming Performance",
+            "High-Precision Gaming",
+            "Wireless Gaming",
+            "Gaming Mouse",
+            "Professional Gaming",
+            "High-Quality Mouse",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "018",
+        "name": "Samsung 970 EVO Plus 1TB M.2 NVMe SSD",
+        "description": "High-performance M.2 NVMe SSD with 1TB capacity, 3000MB/s read speed, and 2000MB/s write speed.",
+        "category": "PC Parts",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/970_evo_plus_front.jpg",
+            "https://example.com/images/970_evo_plus_side.jpg"
+        ],
+        "tags": [
+            "018",
+            "Samsung 970 EVO Plus 1TB M.2 NVMe SSD",
+            "Samsung",
+            "M.2 NVMe SSD",
+            "High-Performance Storage",
+            "1TB Capacity",
+            "3000MB/s Read Speed",
+            "2000MB/s Write Speed",
+            "Gaming PC",
+            "High-End Storage",
+            "Fast Storage",
+            "High-Quality SSD",
+            "PC Upgrades",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "019",
+        "name": "Logitech G502 Lightspeed Wireless Gaming Mouse",
+        "description": "Wireless gaming mouse with 12,000 CPI optical sensor, 48-hour battery life, and customizable RGB.",
+        "category": "PC Accessories",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g502_lightspeed_front.jpg",
+            "https://example.com/images/g502_lightspeed_side.jpg"
+        ],
+        "tags": [
+            "019",
+            "Logitech G502 Lightspeed Wireless Gaming Mouse",
+            "Logitech",
+            "Wireless Gaming Mouse",
+            "12,000 CPI Optical Sensor",
+            "48-Hour Battery Life",
+            "Customizable RGB",
+            "Gaming Performance",
+            "High-Precision Gaming",
+            "Wireless Gaming",
+            "Gaming Mouse",
+            "Professional Gaming",
+            "High-Quality Mouse",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "020",
+        "name": "ASUS PRIME Z590-A",
+        "description": "ATX motherboard with Intel Z590 chipset, Wi-Fi 6, USB 3.2 Gen 2x2, and high-quality audio capacitors.",
+        "category": "PC Parts",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/prime_z590_a_front.jpg",
+            "https://example.com/images/prime_z590_a_ports.jpg"
+        ],
+        "tags": [
+            "020",
+            "ASUS PRIME Z590-A",
+            "ASUS",
+            "ATX Motherboard",
+            "Intel Z590 Chipset",
+            "Wi-Fi 6",
+            "USB 3.2 Gen 2x2",
+            "High-Quality Audio Capacitors",
+            "Gaming PC",
+            "High-End Motherboard",
+            "PC Upgrades",
+            "Gaming Performance",
+            "Professional Gaming",
+            "High-Quality Motherboard",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "021",
+        "name": "Acer Predator Helios 300",
+        "description": "15.6-inch gaming laptop with Intel i7, RTX 3060, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 129999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/predator_helios_front.jpg",
+            "https://example.com/images/predator_helios_open.jpg"
+        ],
+        "tags": [
+            "021",
+            "Acer Predator Helios 300",
+            "Acer",
+            "Gaming Laptop",
+            "15.6-inch",
+            "Intel i7",
+            "RTX 3060",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Laptop",
+            "Gaming Performance",
+            "Portable Gaming",
+            "High Refresh Rate",
+            "NVIDIA GPU",
+            "Gaming Setup",
+            "Acer Gaming"
+        ]
+    },
+    {
+        "id": "022",
+        "name": "LG UltraGear 27GN950-B",
+        "description": "27-inch 4K UHD gaming monitor with 144Hz refresh rate and 1ms response time.",
+        "category": "PC Accessories",
+        "price": 79999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/ultragear_27gn950_front.jpg",
+            "https://example.com/images/ultragear_27gn950_side.jpg"
+        ],
+        "tags": [
+            "022",
+            "LG UltraGear 27GN950-B",
+            "LG",
+            "27-inch Monitor",
+            "4K UHD",
+            "Gaming Monitor",
+            "144Hz Refresh Rate",
+            "1ms Response Time",
+            "High Refresh Rate Monitor",
+            "HDR Gaming Monitor",
+            "Gaming Performance",
+            "PC Gaming Monitor",
+            "High-Quality Display",
+            "Gaming Setup",
+            "Ultra-Wide Monitor"
+        ]
+    },
+    {
+        "id": "023",
+        "name": "Razer Huntsman Mini",
+        "description": "Compact 60% mechanical gaming keyboard with Razer Opto-Mechanical switches.",
+        "category": "PC Accessories",
+        "price": 10999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/huntsman_mini_front.jpg",
+            "https://example.com/images/huntsman_mini_side.jpg"
+        ],
+        "tags": [
+            "023",
+            "Razer Huntsman Mini",
+            "Razer",
+            "60% Mechanical Keyboard",
+            "Gaming Keyboard",
+            "Opto-Mechanical Switches",
+            "Compact Design",
+            "RGB Lighting",
+            "Gaming Performance",
+            "Portable Keyboard",
+            "High-Quality Keyboard",
+            "Gaming Setup",
+            "Professional Gaming"
+        ]
+    },
+    {
+        "id": "024",
+        "name": "MSI GeForce RTX 3060 Gaming X",
+        "description": "High-performance graphics card with 12GB GDDR6 memory and custom thermal design.",
+        "category": "PC Parts",
+        "price": 49999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rtx_3060_front.jpg",
+            "https://example.com/images/rtx_3060_angle.jpg"
+        ],
+        "tags": [
+            "024",
+            "MSI GeForce RTX 3060 Gaming X",
+            "MSI",
+            "RTX 3060",
+            "Graphics Card",
+            "12GB GDDR6",
+            "High-Performance GPU",
+            "Gaming GPU",
+            "Custom Thermal Design",
+            "PC Gaming",
+            "High-End Graphics Card",
+            "NVIDIA GPU",
+            "Gaming Performance",
+            "4K Gaming",
+            "MSI Gaming"
+        ]
+    },
+    {
+        "id": "025",
+        "name": "Seagate FireCuda 530 2TB NVMe SSD",
+        "description": "High-speed NVMe SSD with 2TB capacity, 7300MB/s read speed, and 6900MB/s write speed.",
+        "category": "PC Parts",
+        "price": 29999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/firecuda_530_front.jpg",
+            "https://example.com/images/firecuda_530_side.jpg"
+        ],
+        "tags": [
+            "025",
+"Seagate FireCuda 530 2TB NVMe SSD",
+            "Seagate",
+            "NVMe SSD",
+            "2TB Capacity",
+            "7300MB/s Read Speed",
+            "6900MB/s Write Speed",
+            "High-Speed Storage",
+            "Gaming PC",
+            "High-End Storage",
+            "Fast Storage",
+            "High-Quality SSD",
+            "PC Upgrades",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "026",
+        "name": "Gigabyte AORUS 15G",
+        "description": "15.6-inch gaming laptop with Intel i7, RTX 3070, 16GB RAM, and 1TB SSD.",
+        "category": "Laptops",
+        "price": 179999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/aorus_15g_front.jpg",
+            "https://example.com/images/aorus_15g_open.jpg"
+        ],
+        "tags": [
+            "026",
+            "Gigabyte AORUS 15G",
+            "Gigabyte",
+            "Gaming Laptop",
+            "15.6-inch",
+            "Intel i7",
+            "RTX 3070",
+            "16GB RAM",
+            "1TB SSD",
+            "High-Performance Laptop",
+            "Gaming Performance",
+            "Portable Gaming",
+            "High Refresh Rate",
+            "NVIDIA GPU",
+            "Gaming Setup",
+            "Gigabyte Gaming"
+        ]
+    },
+    {
+        "id": "027",
+        "name": "BenQ PD3220U",
+        "description": "32-inch 4K UHD designer monitor with HDR10 and 95% P3 color gamut.",
+        "category": "PC Accessories",
+        "price": 89999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/pd3220u_front.jpg",
+            "https://example.com/images/pd3220u_side.jpg"
+        ],
+        "tags": [
+            "027",
+            "BenQ PD3220U",
+            "BenQ",
+            "32-inch Monitor",
+            "4K UHD",
+            "Designer Monitor",
+            "HDR10",
+            "95% P3 Color Gamut",
+            "High-Quality Display",
+            "Professional Monitor",
+            "Color Accuracy",
+            "Gaming Performance",
+            "PC Monitor",
+            "Creative Workstation"
+        ]
+    },
+    {
+        "id": "028",
+        "name": "Cooler Master MasterLiquid ML240L RGB",
+        "description": "Liquid CPU cooler with 240mm radiator and addressable RGB lighting.",
+        "category": "PC Parts",
+        "price": 10999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/ml240l_rgb_front.jpg",
+            "https://example.com/images/ml240l_rgb_side.jpg"
+        ],
+        "tags": [
+            "028",
+            "Cooler Master MasterLiquid ML240L RGB",
+            "Cooler Master",
+            "Liquid CPU Cooler",
+            "240mm Radiator",
+            "Addressable RGB Lighting",
+            "High-Performance Cooling",
+            "Cooling Solution",
+            "Gaming PC",
+            "High-Quality Cooling",
+            "RGB Lighting",
+            "PC Upgrades",
+            "Custom Cooling"
+        ]
+    },
+    {
+        "id": "029",
+        "name": "ASUS ROG Strix X570-E",
+        "description": "ATX motherboard with AMD X570 chipset, Wi-Fi 6, and Aura Sync RGB.",
+        "category": "PC Parts",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rog_strix_x570_e_front.jpg",
+            "https://example.com/images/rog_strix_x570_e_ports.jpg"
+        ],
+        "tags": [
+            "029",
+            "ASUS ROG Strix X570-E",
+            "ASUS",
+            "ATX Motherboard",
+            "AMD X570 Chipset",
+            "Wi-Fi 6",
+            "Aura Sync RGB",
+            "Gaming PC",
+            "High-End Motherboard",
+            "PC Upgrades",
+            "Gaming Performance",
+            "Professional Gaming",
+            "High-Quality Motherboard"
+        ]
+    },
+    {
+        "id": "030",
+        "name": "HyperX Cloud II Gaming Headset",
+        "description": "Comfortable gaming headset with 53mm drivers, detachable mic, and USB sound card.",
+        "category": "PC Accessories",
+        "price": 9999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/cloud_ii_front.jpg",
+            "https://example.com/images/cloud_ii_side.jpg"
+        ],
+        "tags": [
+            "030",
+            "HyperX Cloud II Gaming Headset",
+            "HyperX",
+            "Gaming Headset",
+            "53mm Drivers",
+            "Detachable Mic",
+            "USB Sound Card",
+            "Comfortable Headset",
+            "Gaming Performance",
+            "Professional Gaming",
+            "High-Quality Audio",
+            "Gaming Setup",
+            "HyperX Gaming"
+        ]
+    },
+    {
+        "id": "031",
+        "name": "Dell XPS 13 9310",
+        "description": "13.4-inch laptop with Intel i7, 16GB RAM, 512GB SSD, and InfinityEdge display.",
+        "category": "Laptops",
+        "price": 139999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/xps_13_front.jpg",
+            "https://example.com/images/xps_13_open.jpg"
+        ],
+        "tags": [
+            "031",
+            "Dell XPS 13 9310",
+            "Dell",
+            "Ultrabook",
+            "13.4-inch Laptop",
+            "Intel i7",
+            "16GB RAM",
+            "512GB SSD",
+            "InfinityEdge Display",
+            "High-Performance Laptop",
+            "Portable Laptop",
+            "Lightweight Laptop",
+            "Windows 10",
+            "Premium Laptop",
+            "Business Laptop"
+        ]
+    },
+    {
+        "id": "032",
+        "name": "Samsung Odyssey G7",
+        "description": "27-inch QHD gaming monitor with 240Hz refresh rate and 1ms response time.",
+        "category": "PC Accessories",
+        "price": 59999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/odyssey_g7_front.jpg",
+            "https://example.com/images/odyssey_g7_side.jpg"
+        ],
+        "tags": [
+            "032",
+            "Samsung Odyssey G7",
+            "Samsung",
+            "27-inch Monitor",
+            "QHD Gaming Monitor",
+            "240Hz Refresh Rate",
+            "1ms Response Time",
+            "Curved Monitor",
+            "High Refresh Rate Monitor",
+            "Gaming Performance",
+            "PC Gaming Monitor",
+            "High-Quality Display",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "033",
+        "name": "Logitech G Pro X Keyboard",
+        "description": "Mechanical gaming keyboard with customizable RGB lighting and detachable cables.",
+        "category": "PC Accessories",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g_pro_x_front.jpg",
+            "https://example.com/images/g_pro_x_side.jpg"
+        ],
+        "tags": [
+            "033",
+            "Logitech G Pro X Keyboard",
+            "Logitech",
+            "Mechanical Keyboard",
+            "Gaming Keyboard",
+            "Customizable RGB",
+            "Detachable Cables",
+            "Gaming Performance",
+            "High-Quality Keyboard",
+            "Portable Keyboard",
+            "Professional Gaming",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "034",
+        "name": "Razer Naga X",
+        "description": "Lightweight gaming mouse with 16 programmable buttons and ergonomic design.",
+        "category": "PC Accessories",
+        "price": 7999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/naga_x_front.jpg",
+            "https://example.com/images/naga_x_side.jpg"
+        ],
+        "tags": [
+            "034",
+            "Razer Naga X",
+            "Razer",
+            "Gaming Mouse",
+            "Lightweight Mouse",
+            "16 Programmable Buttons",
+            "Ergonomic Design",
+            "Gaming Performance",
+            "High-Precision Gaming",
+            "MMO Gaming",
+            "Professional Gaming",
+            "High-Quality Mouse"
+        ]
+    },
+    {
+        "id": "035",
+        "name": "Corsair Vengeance LPX 16GB",
+        "description": "High-performance 16GB DDR4 RAM with heat spreader for better cooling.",
+        "category": "PC Parts",
+        "price": 6999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/vengeance_lpx_front.jpg",
+            "https://example.com/images/vengeance_lpx_side.jpg"
+        ],
+        "tags": [
+            "035",
+            "Corsair Vengeance LPX 16GB",
+            "Corsair",
+            "DDR4 RAM",
+            "16GB RAM",
+            "High-Performance Memory",
+            "Heat Spreader",
+            "PC Upgrades",
+            "Gaming Performance",
+            "High-Quality RAM",
+            "Memory Module"
+        ]
+    },
+    {
+        "id": "036",
+        "name": "TP-Link Archer AX6000",
+        "description": "Dual-band Wi-Fi 6 router with 8 Gigabit LAN ports and MU-MIMO technology.",
+        "category": "Networking",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/archer_ax6000_front.jpg",
+            "https://example.com/images/archer_ax6000_side.jpg"
+        ],
+        "tags": [
+            "036",
+            "TP-Link Archer AX6000",
+            "TP-Link",
+            "Wi-Fi 6 Router",
+            "Dual-Band Router",
+            "8 Gigabit LAN Ports",
+            "MU-MIMO Technology",
+            "High-Speed Networking",
+            "Gaming Performance",
+            "Home Networking",
+            "High-Quality Router"
+        ]
+    },
+    {
+        "id": "037",
+        "name": "WD Black SN750 NVMe SSD",
+        "description": "High-performance 1TB NVMe SSD with read and write speeds up to 3500MB/s and 3000MB/s.",
+        "category": "Storage",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/sn750_front.jpg",
+            "https://example.com/images/sn750_side.jpg"
+        ],
+        "tags": [
+            "037",
+            "WD Black SN750 NVMe SSD",
+            "WD",
+            "NVMe SSD",
+            "1TB SSD",
+            "High-Performance Storage",
+            "3500MB/s Read Speed",
+            "3000MB/s Write Speed",
+            "Gaming Performance",
+            "High-Quality SSD",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "038",
+        "name": "ASUS ROG Zephyrus G14",
+        "description": "14-inch gaming laptop with AMD Ryzen 9, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 3060.",
+        "category": "Laptops",
+        "price": 199999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/zephyrus_g14_front.jpg",
+            "https://example.com/images/zephyrus_g14_open.jpg"
+        ],
+        "tags": [
+            "038",
+            "ASUS ROG Zephyrus G14",
+            "ASUS",
+            "Gaming Laptop",
+            "14-inch Laptop",
+            "AMD Ryzen 9",
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA GeForce RTX 3060",
+            "High-Performance Laptop",
+            "Portable Gaming",
+            "Gaming Performance",
+            "High-Quality Laptop"
+        ]
+    },
+    {
+        "id": "039",
+        "name": "Corsair Hydro Series H115i RGB Platinum",
+        "description": "High-performance liquid CPU cooler with 280mm radiator and 16 individually addressable RGB LEDs.",
+        "category": "PC Parts",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/h115i_rgb_platinum_front.jpg",
+            "https://example.com/images/h115i_rgb_platinum_side.jpg"
+        ],
+        "tags": [
+            "039",
+            "Corsair Hydro Series H115i RGB Platinum",
+            "Corsair",
+            "Liquid CPU Cooler",
+            "280mm Radiator",
+            "16 Individually Addressable RGB LEDs",
+            "High-Performance Cooling",
+            "Gaming PC",
+            "High-Quality Cooling",
+            "RGB Lighting",
+            "PC Upgrades",
+            "Custom Cooling"
+        ]
+    },
+    {
+        "id": "040",
+        "name": "SteelSeries Arctis 7P Wireless",
+        "description": "Wireless gaming headset with 15-hour battery life, retractable microphone, and 7.1 surround sound.",
+        "category": "PC Accessories",
+        "price": 12999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/arctis_7p_wireless_front.jpg",
+            "https://example.com/images/arctis_7p_wireless_side.jpg"
+        ],
+        "tags": [
+            "040",
+            "SteelSeries Arctis 7P Wireless",
+            "SteelSeries",
+            "Wireless Gaming Headset",
+            "15-Hour Battery Life",
+            "Retractable Microphone",
+            "7.1 Surround Sound",
+            "Gaming Performance",
+            "High-Quality Audio",
+            "Gaming Setup",
+            "Wireless Headset"
+        ]
+    },
+    {
+        "id": "041",
+        "name": "Acer Aspire 5",
+        "description": "15.6-inch laptop with AMD Ryzen 5, 8GB RAM, and 512GB SSD, ideal for everyday use.",
+        "category": "Laptops",
+        "price": 54999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/aspire_5_front.jpg",
+            "https://example.com/images/aspire_5_open.jpg"
+        ],
+        "tags": [
+            "041",
+            "Acer Aspire 5",
+            "Acer",
+            "15.6-inch Laptop",
+            "AMD Ryzen 5",
+            "8GB RAM",
+            "512GB SSD",
+            "Affordable Laptop",
+            "Everyday Use",
+            "High-Performance Laptop",
+            "Windows 10",
+            "Portable Laptop"
+        ]
+    },
+    {
+        "id": "042",
+        "name": "LG 27UL850-W",
+        "description": "27-inch 4K UHD monitor with HDR10 and USB-C connectivity.",
+        "category": "PC Accessories",
+        "price": 49999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/27ul850_front.jpg",
+            "https://example.com/images/27ul850_side.jpg"
+        ],
+        "tags": [
+            "042",
+            "LG 27UL850-W",
+            "LG",
+            "27-inch Monitor",
+            "4K UHD",
+            "HDR10",
+            "USB-C Connectivity",
+            "High-Quality Display",
+            "Professional Monitor",
+            "Creative Workstation",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "043",
+        "name": "HyperX Alloy FPS Pro",
+        "description": "Compact mechanical gaming keyboard with Cherry MX keys and red LED backlighting.",
+        "category": "PC Accessories",
+        "price": 8999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/alloy_fps_pro_front.jpg",
+            "https://example.com/images/alloy_fps_pro_side.jpg"
+        ],
+        "tags": [
+            "043",
+            "HyperX Alloy FPS Pro",
+            "HyperX",
+            "Mechanical Keyboard",
+            "Compact Keyboard",
+            "Cherry MX Keys",
+            "Red LED Backlighting",
+            "Gaming Performance",
+            "Portable Keyboard",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "044",
+        "name": "Logitech G502 HERO",
+        "description": "High-performance gaming mouse with 16,000 DPI and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 9999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g502_hero_front.jpg",
+            "https://example.com/images/g502_hero_side.jpg"
+        ],
+        "tags": [
+            "044",
+            "Logitech G502 HERO",
+            "Logitech",
+            "Gaming Mouse",
+            "16,000 DPI",
+            "Customizable RGB Lighting",
+            "High-Performance Mouse",
+            "Gaming Performance",
+            "Ergonomic Design",
+            "Professional Gaming"
+        ]
+    },
+    {
+        "id": "045",
+        "name": "Crucial MX500 1TB SSD",
+        "description": "1TB SATA SSD with 550MB/s read and 500MB/s write speeds, ideal for system upgrades.",
+        "category": "Storage",
+        "price": 9999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/mx500_front.jpg",
+            "https://example.com/images/mx500_side.jpg"
+        ],
+        "tags": [
+            "045",
+            "Crucial MX500 1TB SSD",
+            "Crucial",
+            "SATA SSD",
+            "1TB SSD",
+            "550MB/s Read Speed",
+            "500MB/s Write Speed",
+            "System Upgrade",
+            "High-Performance Storage",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "046",
+        "name": "TP-Link Deco X60",
+        "description": "Whole home mesh Wi-Fi system with Wi-Fi 6 technology for seamless connectivity.",
+        "category": "Networking",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/deco_x60_front.jpg",
+            "https://example.com/images/de co_x60_side.jpg"
+        ],
+        "tags": [
+            "046",
+            "TP-Link Deco X60",
+            "TP-Link",
+            "Whole Home Mesh Wi-Fi",
+            "Wi-Fi 6 Technology",
+            "Seamless Connectivity",
+            "Home Networking",
+            "High-Speed Networking",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "047",
+        "name": "ASUS PRIME Z590-A",
+        "description": "ATX motherboard with Wi-Fi 6, USB 3.2 Gen 2, and high-quality audio capacitors.",
+        "category": "PC Parts",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/prime_z590_a_front.jpg",
+            "https://example.com/images/prime_z590_a_side.jpg"
+        ],
+        "tags": [
+            "047",
+            "ASUS PRIME Z590-A",
+            "ASUS",
+            "ATX Motherboard",
+            "Wi-Fi 6",
+            "USB 3.2 Gen 2",
+            "High-Quality Audio Capacitors",
+            "Gaming Performance",
+            "High-Performance Motherboard",
+            "PC Upgrades"
+        ]
+    },
+    {
+        "id": "048",
+        "name": "Corsair K95 RGB Platinum",
+        "description": "High-performance mechanical gaming keyboard with Cherry MX keys and 18-zone RGB lighting.",
+        "category": "PC Accessories",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/k95_rgb_platinum_front.jpg",
+            "https://example.com/images/k95_rgb_platinum_side.jpg"
+        ],
+        "tags": [
+            "048",
+            "Corsair K95 RGB Platinum",
+            "Corsair",
+            "Mechanical Keyboard",
+            "Cherry MX Keys",
+            "18-Zone RGB Lighting",
+            "High-Performance Keyboard",
+            "Gaming Performance",
+            "Professional Gaming",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "049",
+        "name": "SteelSeries Arctis 5",
+        "description": "Gaming headset with 7.1 surround sound, retractable microphone, and sleek design.",
+        "category": "PC Accessories",
+        "price": 9999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/arctis_5_front.jpg",
+            "https://example.com/images/arctis_5_side.jpg"
+        ],
+        "tags": [
+            "049",
+            "SteelSeries Arctis 5",
+            "SteelSeries",
+            "Gaming Headset",
+            "7.1 Surround Sound",
+            "Retractable Microphone",
+            "Sleek Design",
+            "Gaming Performance",
+            "High-Quality Audio",
+            "Gaming Setup"
+        ]
+    },
+    {
+        "id": "050",
+        "name": "WD Black SN850 NVMe SSD",
+        "description": "High-performance 2TB NVMe SSD with read and write speeds up to 7000MB/s and 5300MB/s.",
+        "category": "Storage",
+        "price": 49999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/sn850_front.jpg",
+            "https://example.com/images/sn850_side.jpg"
+        ],
+        "tags": [
+            "050",
+            "WD Black SN850 NVMe SSD",
+            "WD",
+            "NVMe SSD",
+            "2TB SSD",
+            "7000MB/s Read Speed",
+            "5300MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "High-Quality SSD",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "051",
+        "name": "MSI GF65 Thin",
+        "description": "15.6-inch gaming laptop with Intel i7, GTX 1660 Ti, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 109999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/gf65_thin_front.jpg",
+            "https://example.com/images/gf65_thin_open.jpg"
+        ],
+        "tags": [
+            "051",
+            "MSI GF65 Thin",
+            "MSI",
+            "Gaming Laptop",
+            "15.6-inch Laptop",
+            "Intel i7",
+            "GTX 1660 Ti",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Laptop",
+            "Portable Gaming",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "052",
+        "name": "BenQ EW2780U",
+        "description": "27-inch 4K UHD monitor with HDR and built-in speakers.",
+        "category": "PC Accessories",
+        "price": 39999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/ew2780u_front.jpg",
+            "https://example.com/images/ew2780u_side.jpg"
+        ],
+        "tags": [
+            "052",
+            "BenQ EW2780U",
+            "BenQ",
+            "27-inch Monitor",
+            "4K UHD",
+            "HDR",
+            "Built-in Speakers",
+            "High-Quality Display",
+            "Multimedia Monitor",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "053",
+        "name": "Razer Huntsman Mini",
+        "description": "Compact 60% mechanical gaming keyboard with Razer Optical switches and RGB lighting.",
+        "category": "PC Accessories",
+        "price": 10999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/huntsman_mini_front.jpg",
+            "https://example.com/images/huntsman_mini_side.jpg"
+        ],
+        "tags": [
+            "053",
+            "Razer Huntsman Mini",
+            "Razer",
+            "60% Mechanical Keyboard",
+            "Optical Switches",
+            "RGB Lighting",
+            "Compact Keyboard",
+            "Gaming Performance",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "054",
+        "name": "Logitech G Pro Wireless",
+        "description": "Lightweight wireless gaming mouse with HERO 25K sensor and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g_pro_wireless_front.jpg",
+            "https://example.com/images/g_pro_wireless_side.jpg"
+        ],
+        "tags": [
+            "054",
+            "Logitech G Pro Wireless",
+            "Logitech",
+            "Wireless Gaming Mouse",
+            "HERO 25K Sensor",
+            "Customizable RGB Lighting",
+            "Lightweight Mouse",
+            "Gaming Performance",
+            "Professional Gaming"
+        ]
+    },
+    {
+        "id": "055",
+        "name": "Samsung 970 EVO Plus 1TB SSD",
+        "description": "1TB NVMe SSD with read speeds up to 3500MB/s and write speeds up to 3300MB/s.",
+        "category": "Storage",
+        "price": 13999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/970_evo_plus_front.jpg",
+            "https://example.com/images/970_evo_plus_side.jpg"
+        ],
+        "tags": [
+            "055",
+            "Samsung 970 EVO Plus 1TB SSD",
+            "Samsung",
+            "NVMe SSD",
+            "1TB SSD",
+            "3500MB/s Read Speed",
+            "3300MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "056",
+        "name": "TP-Link Archer AX50",
+        "description": "Dual-band Wi-Fi 6 router with 4 Gigabit LAN ports and advanced security features.",
+        "category": "Networking",
+        "price": 12999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/archer_ax50_front.jpg",
+            "https://example .com/images/archer_ax50_side.jpg"
+        ],
+        "tags": [
+            "056",
+            "TP-Link Archer AX50",
+            "TP-Link",
+            "Dual-band Wi-Fi 6 Router",
+            "4 Gigabit LAN Ports",
+            "Advanced Security Features",
+            "High-Speed Networking",
+            "Gaming Performance",
+            "Home Networking"
+        ]
+    },
+    {
+        "id": "057",
+        "name": "Corsair Vengeance LPX 16GB RAM",
+        "description": "16GB DDR4 RAM kit with 3200MHz speed and C16 latency.",
+        "category": "Memory",
+        "price": 6999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/vengeance_lpx_front.jpg",
+            "https://example.com/images/vengeance_lpx_side.jpg"
+        ],
+        "tags": [
+            "057",
+            "Corsair Vengeance LPX 16GB RAM",
+            "Corsair",
+            "16GB DDR4 RAM",
+            "3200MHz Speed",
+            "C16 Latency",
+            "High-Performance RAM",
+            "Gaming Performance",
+            "Memory Upgrade"
+        ]
+    },
+    {
+        "id": "058",
+        "name": "Western Digital Black SN750 1TB NVMe SSD",
+        "description": "1TB NVMe SSD with read speeds up to 3500MB/s and write speeds up to 3000MB/s.",
+        "category": "Storage",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/black_sn750_front.jpg",
+            "https://example.com/images/black_sn750_side.jpg"
+        ],
+        "tags": [
+            "058",
+            "Western Digital Black SN750 1TB NVMe SSD",
+            "Western Digital",
+            "NVMe SSD",
+            "1TB SSD",
+            "3500MB/s Read Speed",
+            "3000MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "059",
+        "name": "ASUS ROG Strix Fusion 700",
+        "description": "7.1 surround sound gaming headset with 7.1 surround sound and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rog_strix_fusion_700_front.jpg",
+            "https://example.com/images/rog_strix_fusion_700_side.jpg"
+        ],
+        "tags": [
+            "059",
+            "ASUS ROG Strix Fusion 700",
+            "ASUS",
+            "7.1 Surround Sound Gaming Headset",
+            "Customizable RGB Lighting",
+            "High-Quality Audio",
+            "Gaming Performance",
+            "Immersive Gaming Experience"
+        ]
+    },
+    {
+        "id": "060",
+        "name": "HyperX Cloud II",
+        "description": "7.1 surround sound gaming headset with memory foam ear cushions and detachable microphone.",
+        "category": "PC Accessories",
+        "price": 12999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/cloud_ii_front.jpg",
+            "https://example.com/images/cloud_ii_side.jpg"
+        ],
+        "tags": [
+            "060",
+            "HyperX Cloud II",
+            "HyperX",
+            "7.1 Surround Sound Gaming Headset",
+            "Memory Foam Ear Cushions",
+            "Detachable Microphone",
+            "High-Quality Audio",
+            "Gaming Performance",
+            "Comfortable Gaming Experience"
+        ]
+    },
+    {
+        "id": "061",
+        "name": "Dell XPS 13",
+        "description": "13.3-inch ultrabook with Intel i7, 16GB RAM, and 512GB SSD, perfect for professionals.",
+        "category": "Laptops",
+        "price": 139999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/xps_13_front.jpg",
+            "https://example.com/images/xps_13_open.jpg"
+        ],
+        "tags": [
+            "061",
+            "Dell XPS 13",
+            "Dell",
+            "Ultrabook",
+            "13.3-inch Laptop",
+            "Intel i7",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Laptop",
+            "Portable Laptop",
+            "Professional Use"
+        ]
+    },
+    {
+        "id": "062",
+        "name": "Acer Predator Helios 300",
+        "description": "15.6-inch gaming laptop with Intel i7, RTX 3060, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 129999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/predator_helios_300_front.jpg",
+            "https://example.com/images/predator_helios_300_open.jpg"
+        ],
+        "tags": [
+            "062",
+            "Acer Predator Helios 300",
+            "Acer",
+            "Gaming Laptop",
+            "15.6-inch Laptop",
+            "Intel i7",
+            "RTX 3060",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Gaming",
+            "Portable Gaming"
+        ]
+    },
+    {
+        "id": "063",
+        "name": "LG UltraGear 27GN950-B",
+        "description": "27-inch 4K UHD gaming monitor with 144Hz refresh rate and G-Sync compatibility.",
+        "category": "PC Accessories",
+        "price": 59999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/ultragear_27gn950_front.jpg",
+            "https://example.com/images/ultragear_27gn950_side.jpg"
+        ],
+        "tags": [
+            "063",
+            "LG UltraGear 27GN950-B",
+            "LG",
+            "27-inch Monitor",
+            "4K UHD",
+            "144Hz Refresh Rate",
+            "G-Sync Compatible",
+            "Gaming Monitor",
+            "High-Quality Display"
+        ]
+    },
+    {
+        "id": "064",
+        "name": "Razer BlackWidow V3",
+        "description": "Mechanical gaming keyboard with Razer Green switches and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 13999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/blackwidow_v3_front.jpg",
+            "https://example.com/images/blackwidow_v3_side.jpg"
+        ],
+        "tags": [
+            "064",
+            "Razer BlackWidow V3",
+            "Razer",
+            "Mechanical Keyboard",
+            "Razer Green Switches",
+            "Customizable RGB Lighting",
+            "Gaming Performance",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "065",
+        "name": "Logitech G733 LIGHTSPEED",
+        "description": "Wireless gaming headset with LIGHTSPEED technology and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g733_front.jpg",
+            "https://example.com/images/g733_side.jpg"
+        ],
+        "tags": [
+            "065",
+            "Logitech G733 LIGHTSPEED",
+            "Logitech",
+            "Wireless Gaming Headset",
+            "LIGHTSPEED Technology",
+            "Customizable RGB Lighting",
+            "High-Quality Audio",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "066",
+        "name": "Samsung T7 Portable SSD 1TB",
+        "description": "1TB portable SSD with USB 3.2 Gen 2 interface and up to 1050MB/s read speed.",
+        "category": "Storage",
+        "price": 10999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/t7_portable _front.jpg",
+            "https://example.com/images/t7_portable_side.jpg"
+        ],
+        "tags": [
+            "066",
+            "Samsung T7 Portable SSD 1TB",
+            "Samsung",
+            "Portable SSD",
+            "1TB SSD",
+            "USB 3.2 Gen 2 Interface",
+            "1050MB/s Read Speed",
+            "High-Performance Storage",
+            "Portable Storage"
+        ]
+    },
+    {
+        "id": "067",
+        "name": "Corsair K95 RGB Platinum",
+        "description": "Mechanical gaming keyboard with Cherry MX Brown switches and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/k95_rgb_platinum_front.jpg",
+            "https://example.com/images/k95_rgb_platinum_side.jpg"
+        ],
+        "tags": [
+            "067",
+            "Corsair K95 RGB Platinum",
+            "Corsair",
+            "Mechanical Keyboard",
+            "Cherry MX Brown Switches",
+            "Customizable RGB Lighting",
+            "Gaming Performance",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "068",
+        "name": "ASUS ROG Zephyrus G14",
+        "description": "14-inch gaming laptop with AMD Ryzen 9, RTX 3060, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 149999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rog_zephyrus_g14_front.jpg",
+            "https://example.com/images/rog_zephyrus_g14_open.jpg"
+        ],
+        "tags": [
+            "068",
+            "ASUS ROG Zephyrus G14",
+            "ASUS",
+            "Gaming Laptop",
+            "14-inch Laptop",
+            "AMD Ryzen 9",
+            "RTX 3060",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Gaming",
+            "Portable Gaming"
+        ]
+    },
+    {
+        "id": "069",
+        "name": "HyperX Fury DDR4 RAM 32GB",
+        "description": "32GB DDR4 RAM kit with 3200MHz speed and C16 latency.",
+        "category": "Memory",
+        "price": 13999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/fury_ddr4_front.jpg",
+            "https://example.com/images/fury_ddr4_side.jpg"
+        ],
+        "tags": [
+            "069",
+            "HyperX Fury DDR4 RAM 32GB",
+            "HyperX",
+            "32GB DDR4 RAM",
+            "3200MHz Speed",
+            "C16 Latency",
+            "High-Performance RAM",
+            "Gaming Performance",
+            "Memory Upgrade"
+        ]
+    },
+    {
+        "id": "070",
+        "name": "WD Black SN850 2TB NVMe SSD",
+        "description": "2TB NVMe SSD with read speeds up to 7000MB/s and write speeds up to 5300MB/s.",
+        "category": "Storage",
+        "price": 29999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/black_sn850_front.jpg",
+            "https://example.com/images/black_sn850_side.jpg"
+        ],
+        "tags": [
+            "070",
+            "WD Black SN850 2TB NVMe SSD",
+            "WD",
+            "NVMe SSD",
+            "2TB SSD",
+            "7000MB/s Read Speed",
+            "5300MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "071",
+        "name": "Apple MacBook Air M1",
+        "description": "13.3-inch laptop with Apple M1 chip, 8GB RAM, and 256GB SSD, offering exceptional performance.",
+        "category": "Laptops",
+        "price": 99999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/macbook_air_m1_front.jpg",
+            "https://example.com/images/macbook_air_m1_open.jpg"
+        ],
+        "tags": [
+            "071",
+            "Apple MacBook Air M1",
+            "Apple",
+            "Ultrabook",
+            "13.3-inch Laptop",
+            "M1 Chip",
+            "8GB RAM",
+            "256GB SSD",
+            "High-Performance Laptop",
+            "Portable Laptop"
+        ]
+    },
+    {
+        "id": "072",
+        "name": "Lenovo Legion 5",
+        "description": "15.6-inch gaming laptop with AMD Ryzen 7, RTX 3060, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 119999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/legion_5_front.jpg",
+            "https://example.com/images/legion_5_open.jpg"
+        ],
+        "tags": [
+            "072",
+            "Lenovo Legion 5",
+            "Lenovo",
+            "Gaming Laptop",
+            "15.6-inch Laptop",
+            "AMD Ryzen 7",
+            "RTX 3060",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Gaming"
+        ]
+    },
+    {
+        "id": "073",
+        "name": "Dell Alienware AW2521H",
+        "description": "25-inch gaming monitor with 360Hz refresh rate and G-Sync technology.",
+        "category": "PC Accessories",
+        "price": 59999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/alienware_aw2521h_front.jpg",
+            "https://example.com/images/alienware_aw2521h_side.jpg"
+        ],
+        "tags": [
+            "073",
+            "Dell Alienware AW2521H",
+            "Dell",
+            "25-inch Monitor",
+            "360Hz Refresh Rate",
+            "G-Sync Technology",
+            "Gaming Monitor",
+            "High-Quality Display"
+        ]
+    },
+    {
+        "id": "074",
+        "name": "SteelSeries Apex Pro",
+        "description": "Mechanical gaming keyboard with adjustable actuation switches and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/apex_pro_front.jpg",
+            "https://example.com/images/apex_pro_side.jpg"
+        ],
+        "tags": [
+            "074",
+            "SteelSeries Apex Pro",
+            "SteelSeries",
+            "Mechanical Keyboard",
+            "Adjustable Actuation",
+            "Customizable RGB Lighting",
+            "Gaming Performance",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "075",
+        "name": "Razer Naga X",
+        "description": "Lightweight wireless gaming mouse with 16 programmable buttons and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 10999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/naga_x_front.jpg",
+            "https://example.com/images/naga_x_side.jpg"
+        ],
+        "tags": [
+            "075",
+            "Razer Naga X",
+            "Razer",
+            "Wireless Gaming Mouse",
+            "16 Programmable Buttons",
+            "Customizable RGB Lighting",
+            "Lightweight Mouse",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "076",
+        "name": "Crucial MX500 1TB SSD",
+        "description": "1TB SATA SSD with read speeds up to 560MB/s and write speeds up to 510MB/s.",
+        "category": "Storage",
+        "price": 8999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/mx500_front.jpg",
+            "https://example.com/images/mx500_side.jpg"
+        ],
+        "tags": [
+            "076",
+            "Crucial MX500 1TB SSD",
+            "Crucial",
+            "1TB SSD",
+            "SATA SSD",
+            "560MB/s Read Speed",
+            "510MB/s Write Speed",
+            "High-Performance Storage",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "077",
+        "name": "Corsair K63 Wireless",
+        "description": "Wireless mechanical gaming keyboard with Cherry MX Red switches and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/k63_wireless_front.jpg",
+            "https://example.com/images/k63_wireless_side.jpg"
+        ],
+        "tags": [
+            "077",
+            "Corsair K63 Wireless",
+            "Corsair",
+            "Wireless Mechanical Keyboard",
+            "Cherry MX Red Switches",
+            "Customizable RGB Lighting",
+            "Gaming Performance",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "078",
+        "name": "ASUS ROG Strix SCAR 15",
+        "description": "15.6-inch gaming laptop with AMD Ryzen 9, RTX 3070, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 169999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rog_strix_scar_15_front.jpg",
+            "https://example.com/images/rog_strix_scar_15_open.jpg"
+        ],
+        "tags": [
+            "078",
+            "ASUS ROG Strix SCAR 15",
+            "ASUS",
+            "Gaming Laptop",
+            "15.6-inch Laptop",
+            "AMD Ryzen 9",
+            "RTX 3070",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Gaming",
+            "Portable Gaming"
+        ]
+    },
+    {
+        "id": "079",
+        "name": "HyperX Cloud II",
+        "description": "7.1 surround sound gaming headset with 53mm drivers and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 12999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/cloud_ii_front.jpg",
+            "https://example.com/images/cloud_ii_side.jpg"
+        ],
+        "tags": [
+            "079",
+            "HyperX Cloud II",
+            "HyperX",
+            "7.1 Surround Sound",
+            "Gaming Headset",
+            "53mm Drivers",
+            "Customizable RGB Lighting",
+            "High-Quality Audio",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "080",
+        "name": "WD Black SN750 1TB NVMe SSD",
+        "description": "1TB NVMe SSD with read speeds up to 3500MB/s and write speeds up to 3000MB/s.",
+        "category": "Storage",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/black_sn750_front.jpg",
+            "https://example.com/images/black_sn750_side.jpg"
+        ],
+        "tags": [
+            "080",
+            "WD Black SN750 1TB NVMe SSD",
+            "WD",
+            "1TB NVMe SSD",
+            "3500MB/s Read Speed",
+            "3000MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "081",
+        "name": "MSI GS66 Stealth",
+        "description": "15.6-inch gaming laptop with Intel i7, RTX 3070, 16GB RAM, and 1TB SSD.",
+        "category": "Laptops",
+        "price": 189999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/gs66_stealth_front.jpg",
+            "https://example.com/images/gs66_stealth_open.jpg"
+        ],
+        "tags": [
+            "081",
+            "MSI GS66 Stealth",
+            "MSI",
+            "Gaming Laptop",
+            "15.6-inch Laptop",
+            "Intel i7",
+            "RTX 3070",
+            "16GB RAM",
+            "1TB SSD",
+            "High-Performance Gaming",
+            "Portable Gaming"
+        ]
+    },
+    {
+        "id": "082",
+        "name": "Acer Nitro 5",
+        "description": "15.6-inch gaming laptop with Intel i5, GTX 1650, 8GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 74999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/nitro_5_front.jpg",
+            "https://example.com/images/nitro_5_open.jpg"
+        ],
+        "tags": [
+            "082",
+            "Acer Nitro 5",
+            "Acer",
+            "Gaming Laptop",
+            "15.6-inch Laptop",
+            "Intel i5",
+            "GTX 1650",
+            "8GB RAM",
+            "512GB SSD",
+            "Affordable Gaming"
+        ]
+    },
+    {
+        "id": "083",
+        "name": "BenQ ZOWIE XL2411P",
+        "description": "24-inch gaming monitor with 144Hz refresh rate and 1ms response time.",
+        "category": "PC Accessories",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/zowie_xl2411p_front.jpg",
+            "https://example.com/images/zowie_xl2411p_side.jpg"
+        ],
+        "tags": [
+            "083",
+            "BenQ ZOWIE XL2411P",
+            "BenQ",
+            "24-inch Monitor",
+            "144Hz Refresh Rate",
+            "1ms Response Time",
+            "Gaming Monitor",
+            "High-Quality Display"
+        ]
+    },
+    {
+        "id": "084",
+        "name": "Logitech G Pro X",
+        "description": "Wireless mechanical gaming keyboard with customizable RGB lighting and Blue switches.",
+        "category": "PC Accessories",
+        "price": 15999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g_pro_x_front.jpg",
+            "https://example.com/images/g_pro_x_side.jpg"
+        ],
+        "tags": [
+            "084",
+            "Logitech G Pro X",
+            "Logitech",
+            "Wireless Mechanical Keyboard",
+            "Customizable RGB Lighting",
+            "Blue Switches",
+            "Gaming Performance",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "085",
+        "name": "Razer DeathAdder V2",
+        "description": "Ergonomic wired gaming mouse with Razer Focus+ 20K DPI optical sensor.",
+        "category": "PC Accessories",
+        "price": 7999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/deathadder_v2_front.jpg",
+            "https://example.com/images/deathadder_v2_side.jpg"
+        ],
+        "tags": [
+            "085",
+            "Razer DeathAdder V2",
+            "Razer",
+            "Wired Gaming Mouse",
+            "Ergonomic Design",
+            "20K DPI Optical Sensor",
+            "Gaming Performance"
+        ]
+    },
+    {
+        "id": "086",
+        "name": "Samsung 970 EVO Plus 2TB SSD",
+        "description": "2TB NVMe SSD with read speeds up to 3500MB/s and write speeds up to 3300MB/s.",
+        "category": "Storage",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/970_evo_plus_2tb_front.jpg",
+            "https://example.com/images/970_evo_plus_2tb_side .jpg"
+        ],
+        "tags": [
+            "086",
+            "Samsung 970 EVO Plus 2TB SSD",
+            "Samsung",
+            "2TB NVMe SSD",
+            "3500MB/s Read Speed",
+            "3300MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "087",
+        "name": "Corsair K95 RGB Platinum",
+        "description": "Wireless mechanical gaming keyboard with Cherry MX Brown switches and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/k95_rgb_platinum_front.jpg",
+            "https://example.com/images/k95_rgb_platinum_side.jpg"
+        ],
+        "tags": [
+            "087",
+            "Corsair K95 RGB Platinum",
+            "Corsair",
+            "Wireless Mechanical Keyboard",
+            "Cherry MX Brown Switches",
+            "Customizable RGB Lighting",
+            "Gaming Performance",
+            "High-Quality Keyboard"
+        ]
+    },
+    {
+        "id": "088",
+        "name": "ASUS ROG Zephyrus G14",
+        "description": "14-inch gaming laptop with AMD Ryzen 9, RTX 3060, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 149999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rog_zephyrus_g14_front.jpg",
+            "https://example.com/images/rog_zephyrus_g14_open.jpg"
+        ],
+        "tags": [
+            "088",
+            "ASUS ROG Zephyrus G14",
+            "ASUS",
+            "Gaming Laptop",
+            "14-inch Laptop",
+            "AMD Ryzen 9",
+            "RTX 3060",
+            "16GB RAM",
+            "512GB SSD",
+            "High-Performance Gaming",
+            "Portable Gaming"
+        ]
+    },
+    {
+        "id": "089",
+        "name": "SteelSeries Arctis 7P",
+        "description": "Wireless gaming headset with 15-hour battery life and retractable microphone.",
+        "category": "PC Accessories",
+        "price": 9999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/arctis_7p_front.jpg",
+            "https://example.com/images/arctis_7p_side.jpg"
+        ],
+        "tags": [
+            "089",
+            "SteelSeries Arctis 7P",
+            "SteelSeries",
+            "Wireless Gaming Headset",
+            "15-Hour Battery Life",
+            "Retractable Microphone",
+            "Gaming Performance",
+            "High-Quality Audio"
+        ]
+    },
+    {
+        "id": "090",
+        "name": "WD Black SN850 2TB NVMe SSD",
+        "description": "2TB NVMe SSD with read speeds up to 7000MB/s and write speeds up to 5300MB/s.",
+        "category": "Storage",
+        "price": 34999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/black_sn850_2tb_front.jpg",
+            "https://example.com/images/black_sn850_2tb_side.jpg"
+        ],
+        "tags": [
+            "090",
+            "WD Black SN850 2TB NVMe SSD",
+            "WD",
+            "2TB NVMe SSD",
+            "7000MB/s Read Speed",
+            "5300MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "091",
+        "name": "Razer BlackWidow Lite",
+        "description": "Tenkeyless mechanical gaming keyboard with Razer Orange switches and customizable backlighting.",
+        "category": "PC Accessories",
+        "price": 10999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/blackwidow_lite_front.jpg",
+            "https://example.com/images/blackwidow_lite_side.jpg"
+        ],
+        "tags": [
+            "091",
+            "Razer BlackWidow Lite",
+            "Razer",
+            "Tenkeyless Keyboard",
+            "Mechanical Keyboard",
+            "Razer Orange Switches",
+            "Customizable Backlighting",
+            "Gaming Performance",
+            "Compact Design"
+        ]
+    },
+    {
+        "id": "092",
+        "name": "Logitech G502 HERO",
+        "description": "Wired gaming mouse with HERO 25K sensor and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 8999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g502_hero_front.jpg",
+            "https://example.com/images/g502_hero_side.jpg"
+        ],
+        "tags": [
+            "092",
+            "Logitech G502 HERO",
+            "Logitech",
+            "Wired Gaming Mouse",
+            "HERO 25K Sensor",
+            "Customizable RGB Lighting",
+            "Gaming Performance",
+            "High-Precision Mouse"
+        ]
+    },
+    {
+        "id": "093",
+        "name": "Acer Aspire 5",
+        "description": "15.6-inch laptop with Intel i5, 8GB RAM, and 512GB SSD, ideal for everyday use.",
+        "category": "Laptops",
+        "price": 54999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/aspire_5_front.jpg",
+            "https://example.com/images/aspire_5_open.jpg"
+        ],
+        "tags": [
+            "093",
+            "Acer Aspire 5",
+            "Acer",
+            "15.6-inch Laptop",
+            "Intel i5",
+            "8GB RAM",
+            "512GB SSD",
+            "Everyday Use",
+            "Affordable Laptop"
+        ]
+    },
+    {
+        "id": "094",
+        "name": "Dell G5 15",
+        "description": "15.6-inch gaming laptop with Intel i7, GTX 1650 Ti, 16GB RAM, and 512GB SSD.",
+        "category": "Laptops",
+        "price": 99999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/g5_15_front.jpg",
+            "https://example.com/images/g5_15_open.jpg"
+        ],
+        "tags": [
+            "094",
+            "Dell G5 15",
+            "Dell",
+            "Gaming Laptop",
+            "15.6-inch Laptop",
+            "Intel i7",
+            "GTX 1650 Ti",
+            "16GB RAM",
+            "512GB SSD",
+            "Affordable Gaming"
+        ]
+    },
+    {
+        "id": "095",
+        "name": "ASUS TUF Gaming VG249Q",
+        "description": "24-inch gaming monitor with 144Hz refresh rate and FreeSync technology.",
+        "category": "PC Accessories",
+        "price": 19999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/tuf_vg249q_front.jpg",
+            "https://example.com/images/tuf_vg249q_side.jpg"
+        ],
+        "tags": [
+            "095",
+            "ASUS TUF Gaming VG249Q",
+            "ASUS",
+            "24-inch Monitor",
+            "144Hz Refresh Rate",
+            "FreeSync Technology",
+            "Gaming Monitor",
+            "High-Quality Display"
+        ]
+    },
+    {
+        "id": "096",
+        "name": "HyperX Alloy FPS Pro",
+        "description": "Compact mechanical gaming keyboard with Cherry MX Red switches and red LED backlighting.",
+        "category": "PC Accessories",
+        "price": 8999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/alloy_fps_pro_front.jpg",
+            "https://example.com/images/alloy_fps_pro_side.jpg"
+        ],
+        "tags": [
+            "096",
+            "HyperX Alloy FPS Pro",
+            "HyperX",
+            "Compact Keyboard",
+            "Mechanical Keyboard",
+            "Cherry MX Red Switches",
+            "Red LED Backlighting",
+            "Gaming Performance",
+            "Portable Design"
+        ]
+    },
+    {
+        "id": "097",
+        "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 RAM",
+        "description": "16GB DDR4 RAM kit with 3200MHz speed and C16 latency, ideal for gaming and content creation.",
+        "category": "RAM",
+        "price": 6999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/vengeance_lpx_16gb_front.jpg",
+            "https://example.com/images/vengeance_lpx_16gb_side.jpg"
+        ],
+        "tags": [
+            "097",
+            "Corsair Vengeance LPX 16GB (2x8GB) DDR4 RAM",
+            "Corsair",
+            "16GB DDR4 RAM",
+            "3200MHz Speed",
+            "C16 Latency",
+            "Gaming Performance",
+            "Content Creation",
+            "RAM Upgrade"
+        ]
+    },
+    {
+        "id": "098",
+        "name": "SteelSeries Rival 600",
+        "description": "Wired gaming mouse with TrueMove3 optical sensor and customizable RGB lighting.",
+        "category": "PC Accessories",
+        "price": 12999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/rival_600_front.jpg",
+            "https://example.com/images/rival_600_side.jpg"
+        ],
+        "tags": [
+            "098",
+            "SteelSeries Rival 600",
+            "SteelSeries",
+            "Wired Gaming Mouse",
+            "TrueMove3 Optical Sensor",
+            "Customizable RGB Lighting",
+            "Gaming Performance",
+            "High-Precision Mouse"
+        ]
+    },
+    {
+        "id": "099",
+        "name": "WD Blue SN500 1TB NVMe SSD",
+        "description": "1TB NVMe SSD with read speeds up to 3500MB/s and write speeds up to 3000MB/s.",
+        "category": "Storage",
+        "price": 14999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/blue_sn500_1tb_front.jpg",
+            "https://example.com/images/blue_sn500_1tb_side.jpg"
+        ],
+        "tags": [
+            "099",
+            "WD Blue SN500 1TB NVMe SSD",
+            "WD",
+            "1TB NVMe SSD",
+            "3500MB/s Read Speed",
+            "3000MB/s Write Speed",
+            "High-Performance Storage",
+            "Gaming Performance",
+            "Storage Upgrade"
+        ]
+    },
+    {
+        "id": "100",
+        "name": "Corsair Obsidian Series 7700",
+        "description": "High-performance gaming PC case with tempered glass panels, USB 3.2 Gen 2 ports, and advanced cable management.",
+        "category": "PC Cases",
+        "price": 24999.00,
+        "inStock": true,
+        "images": [
+            "https://example.com/images/obsidian_7700_front.jpg",
+            "https://example.com/images/obsidian_7700_side.jpg"
+        ],
+        "tags": [
+            "100",
+            "Corsair Obsidian Series 7700",
+            "Corsair",
+            "Gaming PC Case",
+            "Tempered Glass Panels",
+            "USB 3.2 Gen 2 Ports",
+            "Advanced Cable Management",
+            "High-Performance Case",
+            "Gaming Setup",
+            "High-End Case",
+            "Premium Materials",
+            "Customizable Case",
+            "Gaming PC Build",
+            "Corsair Case"
+        ]
+    }
+]

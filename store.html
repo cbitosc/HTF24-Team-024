@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoTech Cyberpunk Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+    --yellow: #FFFF00;
+    --purple: #ca00ca;
+    --cyan: #00FFFF;
+    --background: #111111;
+    --card-bg: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--background);
+    color: var(--cyan);
+    line-height: 1.6;
+}
+
+.cyberpunk-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.glitch-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(238, 130, 238, 0.03) 0.5%,
+        transparent 1%
+    );
+    pointer-events: none;
+    z-index: 1;
+    animation: glitch-overlay 10s infinite;
+}
+
+@keyframes glitch-overlay {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100%; }
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid var(--yellow);
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background-color: var(--card-bg);
+    color: var(--cyan);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 20px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: var(--yellow);
+    color: var(--background);
+    border: none;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: var(--cyan);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--yellow);
+}
+
+.user-actions {
+    display: flex;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--purple);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.icon-button:hover {
+    color: var(--yellow);
+}
+
+main {
+    flex-grow: 1;
+    padding: 40px 0;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--yellow);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: var(--card-bg);
+    border: 2px solid var(--cyan);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    border-color: var(--yellow);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.product-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--purple);
+}
+
+.price {
+    font-size: 1.5rem;
+    color: var(--yellow);
+    margin-bottom: 15px;
+}
+
+.buy-button {
+    background-color: var(--cyan);
+    color: var(--background);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: var(--yellow);
+}
+
+footer {
+    background-color: var(--card-bg);
+    color: var(--cyan);
+    padding: 40px 0;
+    position: relative;
+    z-index: 2;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.footer-section h3 {
+    color: var(--yellow);
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: var(--cyan);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: var(--purple);
+}
+
+.glitch-text {
+    position: relative;
+    display: inline-block;
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-2px, 2px);
+    }
+    40% {
+        transform: translate(-2px, -2px);
+    }
+    60% {
+        transform: translate(2px, 2px);
+    }
+    80% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+.glitch-header {
+    position: relative;
+    animation: glitch-header 10s infinite;
+}
+
+@keyframes glitch-header {
+    0%, 100% {
+        text-shadow: 0.05em 0 0 var(--yellow),
+                     -0.025em -0.05em 0 var(--purple),
+                     0.025em 0.05em 0 var(--cyan);
+    }
+    14% {
+        text-shadow: 0.05em 0 0 var(--yellow),
+                     -0.05em -0.025em 0 var(--purple),
+                     -0.025em 0.05em 0 var(--cyan);
+    }
+    15% {
+        text-shadow: -0.05em -0.025em 0 var(--yellow),
+                     0.025em 0.025em 0 var(--purple),
+                     -0.05em -0.05em 0 var(--cyan);
+    }
+    49% {
+        text-shadow: -0.05em -0.025em 0 var(--yellow),
+                     0.025em 0.025em 0 var(--purple),
+                     -0.05em -0.05em 0 var(--cyan);
+    }
+    50% {
+        text-shadow: 0.025em 0.05em 0 var(--yellow),
+                     0.05em 0 0 var(--purple),
+                     0 -0.05em 0 var(--cyan);
+    }
+    99% {
+        text-shadow: 0.025em 0.05em 0 var(--yellow),
+                     0.05em 0 0 var(--purple),
+                     0 -0.05em 0 var(--cyan);
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar {
+        margin: 20px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .user-actions {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="cyberpunk-container">
+        <div class="glitch-overlay"></div>
+        <header>
+            <div class="container">
+                <div class="logo glitch-text">GlichWare</div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search the Grid">
+                    <button class="search-button">Search</button>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="aboutus.html" class="glitch-text">About Us</a></li>
+                        <li><a href="plans.html" class="glitch-text">Premium</a></li>
+                        <li><a href="payment.html" class="glitch-text">Payment</a></li>
+                        <li><a href="login.html" class="glitch-text">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <h1 class="glitch-header">Welcome to the Sith</h1>
+                <div class="product-grid">
+                    <div class="product-card glitch-text">
+                        <img src="alienware.jpeg" alt="Neuro-Enhancer X9">
+                        <h2>Acer Nitro V5</h2>
+                        <p class="price">₹79,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="3050.jpeg" alt="Holo-Projector Elite">
+                        <h2>Holo-Projector Elite</h2>
+                        <p class="price">₹55,499</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="aio.jpg" alt="Quantum Neural Link">
+                        <h2>Quantum Neural Link</h2>
+                        <p class="price">₹129,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="processor.jpg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="SSd.jpg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="colling pad.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="mouse.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="monitor.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="mat.jpg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="gaming laptop.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="Gamingkeyboard.jpg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="Graaphics card.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="Headsets.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="ryzen processor.jpg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="monitor.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="motherboard.jpg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="mouse.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="pc case.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="pc case.jpeg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                    <div class="product-card glitch-text">
+                        <img src="processor.jpg" alt="Stealth Camo Mk.III">
+                        <h2>Stealth Camo Mk.III</h2>
+                        <p class="price">₹77,999</p>
+                        <button class="buy-button" onclick="location.href='payment.html'">Jack In</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-section">
+                    <h3 class="glitch-text">About the Grid</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">News Feed</a></li>
+                        <li><a href="#">Tech Innovations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="glitch-text">Hack the System</h3>
+                    <ul>
+                        <li><a href="#">Become a Vendor</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                        <li><a href="#">Advertise Your Tech</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="glitch-text">Digital Transactions</h3>
+                    <ul>
+                        <li><a href="#">CryptoCredit</a></li>
+                        <li><a href="#">Neural Payments</a></li>
+                        <li><a href="#">Recharge Credits</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="glitch-text">User Support</h3>
+                    <ul>
+                        <li><a href="#">Your Profile</a></li>
+                        <li><a href="#">Shipping Drones</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const glitchElements = document.querySelectorAll('.glitch-text');
+    function applyGlitchEffect(element) {
+        element.addEventListener('mouseover', () => {
+            element.style.animation = 'glitch 0.3s infinite';
+        });
+        
+        element.addEventListener('mouseout', () => {
+            element.style.animation = 'none';
+        });
+    }
+    glitchElements.forEach(applyGlitchEffect);
+    function randomGlitch() {
+        const elements = Array.from(glitchElements);
+        const randomElement = elements[Math.floor(Math.random() * elements.length)];
+        randomElement.style.animation = 'glitch  0.3s';
+        setTimeout(() => {
+            randomElement.style.animation = 'none';
+        }, 300);
+    }
+    setInterval(randomGlitch, 3000);
+    const buyButtons = document.querySelectorAll('.buy-button');
+    buyButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            button.textContent = 'Added to Cart';
+            button.style.backgroundColor = 'var(--purple)';
+            setTimeout(() => {
+                button.textContent = 'Jack In';
+                button.style.backgroundColor = '';
+            }, 2000);
+        });
+    });
+});
+    </script>
+</body>
+</html>
